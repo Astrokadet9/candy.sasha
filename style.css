@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    color: rgb(68, 255, 0);
+    background-color: red;
+}
+body{
+    background-color: aqua;
+}
+
+h2{
+    color: red;
+    background-color: rgb(68, 255, 0);
+}
+img{
+    position: relative;
+    display: block;
+}
+.img2{
+    bottom: 90px;
+    left: 60px;
+}
+.img3{
+    width: 250px;
+    bottom: 160px;
+    left: 180px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+nav::before{
+    content: url(https://imgpng.ru/d/bonbon_PNG13911.png);
+    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    transform: scale(0.1);
+    margin-bottom: 10px;
+    display: block;
+}
+h3{
+    color: red;
+    background-color: rgb(21, 255, 0);
+}
+.f{
+    width: 450px;
+    opacity: 0.5;
+}
+.f:hover{
+    opacity: 1;
+}
+p{
+    color: rgb(0, 255, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
